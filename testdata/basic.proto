@@ -1,0 +1,16 @@
+syntax = "proto3";
+option go_package = "github.com/dictav/bqproto/testdata;testdata";
+
+message BasicProto {
+  string str = 1;
+  bool boolean = 2;
+  int64 integer = 3;
+  double float = 4;
+  bytes binary = 5;
+  int32 date = 6;
+  int64 timestamp1 = 7;
+  int64 timestamp2 = 8;
+  bytes decimal = 9;
+  uint64 time = 10;
+  uint64 datetime = 11;
+}

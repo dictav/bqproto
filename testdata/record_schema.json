@@ -1,0 +1,39 @@
+[
+	{
+		"name": "ts",
+		"type": "TIMESTAMP"
+	},
+	{
+		"name": "id",
+		"type": "STRING"
+	},
+	{
+		"name": "city",
+		"type": "RECORD",
+		"fields": [
+			{
+				"name": "name",
+				"type": "STRING"
+			},
+			{
+				"name": "code",
+				"type": "INTEGER"
+			},
+			{
+				"name": "office",
+				"type": "RECORD",
+				"fields": [
+					{
+						"name": "tel",
+						"type": "STRING"
+					},
+					{
+						"name": "address",
+						"type": "STRING"
+					}
+				]
+			}
+		]
+	}
+]
+

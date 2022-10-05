@@ -1,0 +1,39 @@
+linters:
+  go: 1.19
+  enable-all: true
+  disable:
+    - cyclop
+    - funlen
+    - gochecknoglobals
+    - gochecknoinits
+    - gocyclo
+    - goerr113
+    - gomnd
+    - lll
+    - rowserrcheck
+    - sqlclosecheck
+    - varnamelen
+    - wastedassign
+    - wrapcheck
+    # deprecated
+    - deadcode
+    - exhaustivestruct
+    - golint
+    - ifshort
+    - interfacer
+    - maligned
+    - nosnakecase
+    - scopelint
+    - structcheck
+    - varcheck
+
+linters-settings:
+  nlreturn:
+    block-size: 3
+
+issues:
+  exclude-rules:
+    - source: "Interface()"
+      linters:
+        forcetypeassert
+

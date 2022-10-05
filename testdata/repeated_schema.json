@@ -1,0 +1,43 @@
+[
+	{
+		"name": "timestamp_list",
+		"type": "TIMESTAMP",
+		"mode": "REPEATED"
+	},
+	{
+		"name": "str_list",
+		"type": "STRING",
+		"mode": "REPEATED"
+	},
+	{
+		"name": "boolean_list",
+		"type": "BOOL",
+		"mode": "REPEATED"
+	},
+	{
+		"name": "integer_list",
+		"type": "INTEGER",
+		"mode": "REPEATED"
+	},
+	{
+		"name": "float_list",
+		"type": "FLOAT",
+		"mode": "REPEATED"
+	},
+	{
+		"name": "record_list",
+		"type": "RECORD",
+		"mode": "REPEATED",
+		"fields": [
+			{
+				"name": "len",
+				"type": "INTEGER"
+			},
+			{
+				"name": "integer_list",
+				"type": "INTEGER",
+				"mode": "REPEATED"
+			}
+		]
+	}
+]

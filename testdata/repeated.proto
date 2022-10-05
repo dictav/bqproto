@@ -1,0 +1,16 @@
+syntax = "proto3";
+option go_package = "github.com/dictav/bqproto/testdata;testdata";
+
+message RepeatedProto {
+  repeated int64 timestamp_list = 1;
+  repeated string str_list = 2;
+  repeated bool boolean_list = 3;
+  repeated int64 integer_list = 4;
+  repeated double float_list = 5;
+  repeated RepeatedRecordProto record_list = 6;
+}
+
+message RepeatedRecordProto {
+  int64 len = 1;
+  repeated int64 integer_list = 2;
+}

@@ -1,0 +1,19 @@
+syntax = "proto3";
+option go_package = "github.com/dictav/bqproto/testdata;testdata";
+
+message RecordProto {
+  int64 ts = 1;
+  string id = 2;
+  CityProto city = 3;
+}
+
+message CityProto {
+  string name = 1;
+  int64 code = 2;
+  OfficeProto office = 3;
+}
+
+message OfficeProto {
+  string tel = 1;
+  string address = 2;
+}

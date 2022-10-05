@@ -1,0 +1,48 @@
+[
+	{
+		"name": "str",
+		"type": "STRING",
+		"mode": "REQUIRED"
+	},
+	{
+		"name": "boolean",
+		"type": "BOOL"
+	},
+	{
+		"name": "integer",
+		"type": "INTEGER"
+	},
+	{
+		"name": "float",
+		"type": "FLOAT"
+	},
+	{
+		"name": "binary",
+		"type": "BYTES"
+	},
+	{
+		"name": "date",
+		"type": "DATE"
+	},
+	{
+		"name": "timestamp1",
+		"type": "TIMESTAMP"
+	},
+	{
+		"name": "timestamp2",
+		"type": "TIMESTAMP"
+	},
+	{
+		"name": "decimal",
+		"type": "DECIMAL"
+	},
+	{
+		"name": "time",
+		"type": "TIME"
+	},
+	{
+		"name": "datetime",
+		"type": "DATETIME"
+	}
+]
+
